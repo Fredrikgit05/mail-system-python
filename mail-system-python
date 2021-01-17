@@ -3,7 +3,7 @@ import smtplib
 sender_email = "sendermail@gmail.com"
 rec_email = "receivermail@gmail.com"
 password = input(str("Please enter password : "))
-message = "Velkommen til oss"
+message = "Enter your message here"
 
 
 server = smtplib.SMTP('smtp.gmail.com', 587)
